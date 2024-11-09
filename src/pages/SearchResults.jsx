@@ -12,7 +12,7 @@ const SearchResults = () => {
     const query = new URLSearchParams(location.search).get('search');
     
     if (query) {
-      fetch(`http://localhost:5000/api/items?q=${encodeURIComponent(query)}`)
+      fetch(`${process.env.REACT_APP_API_URL}/api/items?q=${encodeURIComponent(query)}`)
         .then((response) => response.json())
         .then((data) => setResults(data))
         .catch((error) => console.error('Error fetching data:', error));
