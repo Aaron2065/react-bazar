@@ -1,4 +1,3 @@
-// src/pages/ProductDetail.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
@@ -15,8 +14,6 @@ const ProductDetail = () => {
   }, [id]);
 
   const handlePurchase = () => {
-    // Puedes agregar la lógica de compra aquí (si es necesario)
-    // Luego, redirigir a la página de compra exitosa
     navigate('/success');
   };
 

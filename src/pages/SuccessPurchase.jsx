@@ -1,4 +1,3 @@
-// src/pages/SuccessPurchase.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -6,7 +5,6 @@ const SuccessPurchase = () => {
   const navigate = useNavigate();
 
   const handleGoHome = () => {
-    // Redirige al inicio
     navigate('/');
   };
 

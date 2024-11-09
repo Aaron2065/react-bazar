@@ -1,4 +1,3 @@
-// src/pages/SearchResults.jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
